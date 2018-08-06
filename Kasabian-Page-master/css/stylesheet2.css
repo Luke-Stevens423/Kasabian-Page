@@ -1,0 +1,140 @@
+html{
+	/*font-size: 62.5%;*/
+}
+
+body{
+	background-image: url("assets\Albums-Background.jpg");
+	background-position: bottom left;
+	background-color: #FC01C3;
+	font-family: SquareFont;
+}
+
+#AlbumName{
+	font-size: 300%;
+	font-weight: bold;
+}
+
+#EachAlbum{
+	font-size: 250%;
+	font-weight: bold;
+	text-align: center;
+}
+
+#AlbumPhotos{
+	display: block;
+	width: 400px;
+	margin: auto;
+	
+}
+
+#footer{
+	background-color: white;
+	font-size: 100%;
+	color: black;
+}
+
+
+.menubar{
+	float: right;
+}
+.menubar ul{
+	list-style-type: none;
+	float: right;
+}
+.menubar ul a{
+	color: black;
+	font-weight: bold;
+	font-size: 125%;
+	text-decoration: none;
+}
+.menubar li a{
+	margin-right: 40px;
+}
+
+.Album-Slideshow{
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+}
+
+.AlbumPhotos{
+	display: none;
+}
+
+.prev,.next{
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: black;
+	font-weight: bold;
+	font-size: 50px;
+	transition: 0.6 ease;
+	border-radius: 0 3px 3px 0;
+}
+
+.next{
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover{
+	background-color: rgba(0,0,0,0.3);
+}
+
+.AlbumYear{
+	color: black;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.SpotifyLink{
+	text-decoration: underline;
+	color: black;
+	font-weight: bold;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+footer{
+	background: none repeat scroll 0 0 black;
+	border-top: 10px solid black;
+	margin: 0 0 5px;
+	padding: 2px 0 5px 2px;
+}
+footer #contact{
+	color: white;
+	font-size: 12px;
+	line-height:15px;
+	overflow: hidden;
+	width: 100%;
+}
+footer a{
+	color: white;
+	text-decoration: underline;
+}
+footer p{
+	display: inline-block;
+	padding-right: 30px;
+}

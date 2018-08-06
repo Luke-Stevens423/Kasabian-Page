@@ -1,0 +1,65 @@
+<html>
+<head>	
+	<title>TOUR DATES</title>
+	<link rel="stylesheet" href="css\stylesheet4.css" >
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	<script src="gmaps.js"></script>
+	<script src="js\MainScript.js"></script>
+</head>
+
+<body>
+<header>
+	<div class="menubar">
+		<nav>
+			<ul>
+				<li>
+					<a href="index.html">Home</a>
+					<a href="MERCH.html">Merchandise</a>
+					<a href="ALBUMS.html">Albums</a>					
+				</li>
+			</ul>
+		</nav>
+	</div>
+</header>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+<section id="TourLogo">
+	<div id="Logo">
+		<h1 id="black"> KASABIAN ARE...</h1> 
+		<h1 id="white"> on tour!</h1>
+	</div>
+</section>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+<section id="maps-dates">
+	<div id="gMaps"></div>
+	<div id="tourDates">
+		<ul id="DatesList">
+			<li class="DatesListItems">
+				<a onclick="MapLocation({lat:52.438223,lng:0.675659},'1')"><span class="MapMarker">A</span></a>
+				<h2 class="tourInfo">Thetford, United Kingdom</h2>
+				<h3 class="tourInfo">Sunday, 10 June 2018</h3>
+			</li>
+			<li class="DatesListItems">
+				<a onclick="MapLocation({lat:54.601541,lng:-5.923668},'1')"><span class="MapMarker">B</span></a>
+				<h2 class="tourInfo">Belfast, United Kingdom</h2>
+				<h3 class="tourInfo">Monday, 20 August 2018</h3>
+			</li>
+			<li class="DatesListItems">
+				<a onclick="MapLocation({lat:40.477788,lng:-3.622116},'1')"><span class="MapMarker">C</span></a>
+				<h2 class="tourInfo">Madrid, Spain</h2>
+				<h3 class="tourInfo">Thursday, 12 July 2018</h3>
+			</li>
+		</ul>
+	</div>
+</section>
+</body>
+</html>
