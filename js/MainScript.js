@@ -134,7 +134,7 @@ function MapLocation(position, x){
 	if (x == 1) {
 		mapProp= {
 		center:new google.maps.LatLng(position),
-		zoom: 5,
+		zoom: 8,
 		}
 	}
 	if (x != 1) {
@@ -145,7 +145,7 @@ function MapLocation(position, x){
 		
 		mapProp= {
 			center:new google.maps.LatLng(mapLat, mapLng),
-			zoom:5,
+			zoom:8,
 		};
 	}
 
